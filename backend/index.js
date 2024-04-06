@@ -13,7 +13,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/login');
 
 app.use('/user', userRouter); // Corrected usage
 
-app.listen(3001, () => {
+app.listen(5000, () => {
     console.log("Server is running ...");
 });
 
