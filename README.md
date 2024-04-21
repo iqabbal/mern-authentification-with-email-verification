@@ -1,7 +1,3 @@
-Certainly! Here's the README file description tailored for a MERN (MongoDB, Express.js, React.js, Node.js) stack:
-
----
-
 # MERN Authentication and Email Verification Project
 
 This project provides a comprehensive authentication system with email verification functionality for web applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It offers a seamless experience for user registration, email verification, login, logout, and password reset, ensuring secure user management.
