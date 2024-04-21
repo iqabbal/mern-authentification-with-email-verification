@@ -5,10 +5,46 @@
 .Home{
 
 	height : 50%;
-	width : 70%;
+	width : 50%;
 	border-radius: 30px;
-	background-color : red;
+	border: 2px solid gray;
 	margin-top : 100px;
 	color : black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
+.Home .buttons{
+	height: 10%;
+	/* background-color: aquamarine; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Home .buttons a{
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	width: 70px;
+	height: 10px;
+	padding: 10px;
+	margin: 30px 20px;
+	cursor: pointer;
+	text-align: center;
+
+}
+
+.Home a:hover{
+
+	background-color:white;
+	color: black;
+	border: 2px solid gray;
+
+}
+
+.Home .container{
+	height: 90%;
+	width: 100%;
+}

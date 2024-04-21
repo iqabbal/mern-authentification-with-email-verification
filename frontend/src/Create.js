@@ -4,10 +4,14 @@ import './Create.css'
 
 
 function Create() {
+  
 const [email,setEmail] = useState();
 const [password,setPassword] = useState();
 const [name,setName] = useState();
 const [dateOfBirth,setDateOfBirth] = useState();
+
+
+
 const handleClick = () => {
   console.log("clicked...");
   axios.post('http://localhost:3001/user/signup', { email: email , password : password , name : name , dateOfBirth : dateOfBirth })

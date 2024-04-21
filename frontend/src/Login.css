@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Login{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Login h1{
+    margin: 30px;
+}
+.Login .input{
+    margin: 30px;
+    /* background-color: aquamarine; */
+}
+
+.Login .input h5{
+    margin-bottom: 8px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 50px;
+
+}
+.email::before{
+    content: "email";
+    color: black;
+}
+
+
+.Login .email{
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    /* margin: 30px; */
+}
+
+
+
+.Login .password{
+
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+
+}
+
+.password::before{
+    content: "password";
+}
+
+
+
+.Login .Login-button{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: bisque;
+}
+
+
+.Login p{
+    margin: 3px;
+    font-size: 12px;
+    opacity: 0.6;
+}
+

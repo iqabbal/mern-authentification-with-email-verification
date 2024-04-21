@@ -27,6 +27,8 @@ transporter.verify((error, success) => {
 
 router.post("/signup", (req, res) => {
     let { name, email, password, dateOfBirth } = req.body;
+
+    console.log("backend called ... ");
     name = name.trim();
     email = email.trim();
     password = password.trim();
@@ -293,3 +295,4 @@ router.post("/signin", (req, res) => {
 });
 
 module.exports = router;
+

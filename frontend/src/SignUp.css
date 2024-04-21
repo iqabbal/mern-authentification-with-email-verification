@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.signup .input {
+    margin: 15px;
+}
+
+.signup .input input{
+    height: 35px;
+    border-radius: 10px;
+}
+
+.signup button{
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.signup p{
+    margin-top: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+}
